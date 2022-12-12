@@ -13,6 +13,9 @@ public class EmployeeApp {
         System.out.println("Shift start time: " + sw.getShift());
         System.out.println("PPS: " + sw.getPayroll());
         System.out.println("Pay Rate: " + sw.getPayRate());
+
+
+        System.out.println("Expected salary: " + sw.getPayRate() * 2080);
     }
 
 }
