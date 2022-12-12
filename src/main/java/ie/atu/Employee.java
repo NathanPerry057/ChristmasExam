@@ -9,12 +9,12 @@ public class Employee {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.println("Enter the Employee name ");
+        System.out.println("Enter the Employee name: ");
         String name = s.nextLine();
         Employee e1 = new Employee();
         e1.setName(name);
 
-        System.out.println("Enter the employee id ");
+        System.out.println("Enter the employee id: ");
         String id = s.nextLine();
         e1.setId(id);
 
@@ -32,8 +32,8 @@ public class Employee {
 
 
     public Employee() {
-        String name = "";
-        String id = "";
+         this.name = "";
+         this.id = "";
     }
 
     public String getName() {

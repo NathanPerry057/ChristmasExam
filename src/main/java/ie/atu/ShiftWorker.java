@@ -34,11 +34,6 @@ public class ShiftWorker {
 
 
 
-
-
-
-
-
     public int getShift() {
         return shift;
     }
