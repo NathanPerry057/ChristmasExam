@@ -23,6 +23,7 @@ public class ShiftWorker {
         int payroll = s.nextInt();
         ShiftWorker sw = new ShiftWorker();
         sw.setPayroll(payroll);
+        System.out.println("PSS: " + sw.getPayroll());
 
         System.out.println("Your hourly pay rate is: " + sw.getPayRate());
 
