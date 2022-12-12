@@ -24,6 +24,8 @@ public class ShiftWorker {
         ShiftWorker sw = new ShiftWorker();
         sw.setPayroll(payroll);
 
+        System.out.println("Your hourly pay rate is: " + sw.getPayRate());
+
 
 
     }
